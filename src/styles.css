@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~leaflet/dist/leaflet.css";
+html,
+body {
+  height: 100%;
+  background-color: #f8f4f4;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-form-field-wrapper {
+  padding: 0 !important;
+}
+
+.thumb img {
+  width: 100px;
+  height: 100px;
+}

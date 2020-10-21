@@ -1,0 +1,36 @@
+<mat-card fxLayout="row" fxLayoutAlign="center center">
+  <mat-form-field
+    appearance="outline"
+    [hideRequiredMarker]="false"
+    [floatLabel]="'auto'"
+  >
+    <input
+      matInput
+      [(ngModel)]="value"
+      placeholder="Busca algun sitio turistico"
+      (keydown.enter)="dispatchFilter()"
+    />
+  </mat-form-field>
+  <button
+    mat-button
+    matSuffix
+    *ngIf="value != ''"
+    color="primary"
+    mat-icon-button
+    aria-label="Clear"
+    (click)="value = ''"
+  >
+    <mat-icon>close</mat-icon>
+  </button>
+  <span *ngIf="value != ''">|</span>
+  <button
+    mat-button
+    matSuffix
+    color="primary"
+    mat-icon-button
+    aria-label="Clear"
+    (click)="dispatchFilter()"
+  >
+    <mat-icon>search</mat-icon>
+  </button>
+</mat-card>

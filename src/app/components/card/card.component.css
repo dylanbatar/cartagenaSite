@@ -1,0 +1,18 @@
+.site-card {
+  margin-bottom: 1rem;
+  direction: ltr;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+.site-card:hover {
+  transform: translateY(-5px);
+  transition: ease-in 0.2s;
+}
+
+.card-image {
+  margin-right: 1rem;
+}
+.card-image img {
+  width: 200px;
+  height: 100%;
+}

@@ -1,0 +1,16 @@
+<mat-card class="site-card" fxLayout="row" (click)="focusMarket(site)">
+  <div class="card-image">
+    <img [src]="site.image[0].image" alt="Photo of a Shiba Inu" />
+  </div>
+  <div class="">
+    <mat-card-title>{{ site.name }}</mat-card-title>
+    <mat-card-content>
+      <p>{{ site.desc }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <a *ngIf="site.virtualTourURL != ''" href="" target="_blank" mat-button
+        >Ver Sitio</a
+      >
+    </mat-card-actions>
+  </div>
+</mat-card>
