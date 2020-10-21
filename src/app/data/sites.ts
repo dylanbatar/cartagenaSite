@@ -13,7 +13,8 @@ export const sitesData: ISite[] = [
       { image: 'assets/sanFelipe2.jpg' },
       { image: 'assets/sanFelipe3.jpg' },
     ],
-    virtualTourURL: '',
+    virtualTourURL:
+      'http://www.worldtour360.com/360.php?country=Colombia&swf=SanFelipeCastle20100316&lang=en',
   },
   {
     id: 2,
@@ -27,7 +28,8 @@ export const sitesData: ISite[] = [
       { image: 'assets/muralla2.jpg' },
       { image: 'assets/muralla3.jpg' },
     ],
-    virtualTourURL: '',
+    virtualTourURL:
+      'http://www.worldtour360.com/360.php?country=Colombia&swf=LasMurallas20120619&lang=en',
   },
   {
     id: 3,
@@ -83,7 +85,8 @@ export const sitesData: ISite[] = [
       { image: 'assets/popa2.jpg' },
       { image: 'assets/popa3.jpg' },
     ],
-    virtualTourURL: '',
+    virtualTourURL:
+      'http://www.worldtour360.com/360.php?country=Colombia&swf=CerroLaPopa20100316&lang=en',
   },
   {
     id: 7,

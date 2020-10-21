@@ -8,7 +8,11 @@
       <p>{{ site.desc }}</p>
     </mat-card-content>
     <mat-card-actions>
-      <a *ngIf="site.virtualTourURL != ''" href="" target="_blank" mat-button
+      <a
+        *ngIf="site.virtualTourURL != ''"
+        [href]="site.virtualTourURL"
+        target="_blank"
+        mat-button
         >Ver Sitio</a
       >
     </mat-card-actions>
